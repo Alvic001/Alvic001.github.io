@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(212, 207, 207);
+}
+
+h1{
+    font-size: 50px;
+}
+h2, h3, h4 {
+    font-family: Arial, sans-serif; 
+}
+
+ul, p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+#image {
+    height: 400px;
+    width: 600px;
+    display: block;
+    margin-bottom: 10px; 
+}
+
+#img-caption {
+    font-style: italic;
+}
+
+#tribute-info {
+    margin-top: 20px;
+}
+
+#tribute-link {
+    display: block;
+    text-decoration: none;
+    color: blue;
+}
+
+#tribute-link:hover {
+    text-decoration: underline;
+}
